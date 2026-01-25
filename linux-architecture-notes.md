@@ -10,7 +10,7 @@
 - process are created using mechanishm like fork().
 - process can be in various state like running , sleeping and zombie that are orginized in hierchal structure (parent child relationship)
 
-#What systemd does and why it matters
+# What systemd does and why it matters
 - syetemd stands for system deamon that uses to running the process in background
 - it start the first process with pid 1
 - To see all the "background processes" systemd is currently managing, you can run:

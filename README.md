@@ -7,4 +7,6 @@ This repo was made to keep posted about my DevOps Journy
 - kubernetes
 - CI/CD pipeline
 - Cloud computing
+- Agentic Ai for devops
+- shell scripting or python for automation 
   

@@ -51,3 +51,19 @@ sudo chgrp group filename
 sudo chown user:group filename
 sudo chown -R user:group directory/
 ls -lR directory/
+```
+
+### What I Learned
+  - File ownership directly controls who can read, write, or execute files.
+  - Groups are used for shared access in team environments.
+  - Recursive ownership changes are critical for project directories and deployments.
+
+### Why This Matters for DevOps
+  - Application config ownership
+  - Log directory permissions
+  - Secure multi-user servers
+  - CI/CD pipeline file access
+  - Production troubleshooting
+
+### Screenshots
+ - Screenshots attached showing before and after ownership changes.

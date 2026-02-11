@@ -10,7 +10,7 @@ Target used: google.com
 
 ### OSI vs TCP/IP (in simple words)
 
-- OSI has 7 layers (Physical → Application).
+- OSI has 7 layers (Physical → Data Link → Transport → Netwrok → Session → Presentation → Application).
 - TCP/IP has 4 layers (Link → Internet → Transport → Application).
 - OSI is conceptual.
 - TCP/IP is what actually runs the internet.

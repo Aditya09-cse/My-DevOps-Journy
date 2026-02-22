@@ -5,26 +5,25 @@
 ### Task 1: Git Reset — Hands-On
 1. Make 3 commits in your practice repo (commit A, B, C)
 
-    ![image]("C:\#90daysofDevops\day25(1.1).png")
+   ![Git Reset Soft](images/day25(1.1).png)
 
 
 2. Use `git reset --soft` to go back one commit — what happens to the changes?
     - You will see file.txt is "modified" and already in the staging area.Your changes from Commit C are still there and ready to be committed again.
 
-    ![image]("C:\#90daysofDevops\day25(1.2).png")
+   ![Git Reset Soft](images/day25(1.2).png)
 
 
 3. Re-commit, then use `git reset --mixed` to go back one commit — what happens now?
     - You will see file.txt is "modified" but not staged.The changes from Commit C are still in the file, but Git isn't tracking them for a commit yet.
 
-    ![image]("C:\#90daysofDevops\day25(1.2).png")
+    ![Git Reset Soft](images/day25(1.3).png)
 
 
 4. Re-commit, then use `git reset --hard` to go back one commit — what happens this time?
     - It will say "working tree clean.
 
-    ![image]("C:\#90daysofDevops\day25(1.4).png")
-
+   ![Git Reset Soft](images/day25(1.4).png)
 
 5. Answer in your notes:
    - What is the difference between `--soft`, `--mixed`, and `--hard`?
@@ -59,7 +58,7 @@
 
     - Commit Y is still in the history.A new commit was added.
 
-    ![image]("C:\#90daysofDevops\day25(.2).png")
+    ![Git Reset Soft](images/day25(2).png)
 
 
 4. Answer in your notes:
@@ -263,4 +262,4 @@
 
 ### Task 5: Git Commands Reference Update
 
-https://github.com/srdangat/devops-git-practice/blob/main/git-command.md
+https://github.com/Aditya09-cse/devops-git-practice/blob/main/git-commands.md

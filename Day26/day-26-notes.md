@@ -9,7 +9,7 @@
 <img width="774" height="166" alt="image" src="https://github.com/user-attachments/assets/b728f3f3-099e-483e-87c0-aa329984a769" />
 
 4. Answer in your notes: What authentication methods does `gh` support?
-   - Web Based Authenticaton
+   - OAuth flow for browser login
    - Personal Acccess Token(PAT)
    - SSH-key Based
 ### Task 2: Working with Repositories

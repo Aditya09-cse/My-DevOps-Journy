@@ -60,7 +60,7 @@ Go through the checklist below. For each item, mark yourself honestly:
 
 1. What does `chmod 755 script.sh` do?
    
-   - It will give `read/write/execute permission to owner and read/write to group & other`
+   - It will give `read/write/execute permission to owner and read/excute to group & other`
 2. What is the difference between a process and a service?
    - `process` is instance of program  while `service` is also a long running process in backrgound.
 
@@ -68,7 +68,11 @@ Go through the checklist below. For each item, mark yourself honestly:
   - ` ss -tulpn | grep 8080 `
     
 4. What does `set -euo pipefail` do in a shell script?
-   - Exit when find error in program/script
+   ```
+   -e  → Exit immediately if a command fails
+   -u  → Exit if using an undefined variable
+   -o pipefail → If any command in a pipeline fails, the whole pipeline fails
+   ```
    
 5. What is the difference between `git reset --hard` and `git revert`?
   - `git reset --hard` -> Remove the commit completely from history

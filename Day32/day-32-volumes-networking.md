@@ -140,10 +140,19 @@ Write in your notes: What is the difference between a named volume and a bind mo
 ---
 
 ### Task 6: Put It Together
-1. Create a custom network
-2. Run a **database container** (MySQL/Postgres) on that network with a volume for data
-3. Run an **app container** (use any image) on the same network
-4. Verify the app container can reach the database by container name
+1. Create a custom network -> `name -> two-tier`
+   <img width="718" height="229" alt="image" src="https://github.com/user-attachments/assets/aa514b1d-d2b4-49a8-b675-e72636b45d46" />
+
+3. Run a **database container** (MySQL/Postgres) on that network with a volume for data
+
+   <img width="1344" height="123" alt="image" src="https://github.com/user-attachments/assets/dea58076-b201-4bba-9c7b-b36c3f8edb90" />
+
+5. Run an **app container** (use any image) on the same network
+6. Verify the app container can reach the database by container name
+
+  <img width="850" height="229" alt="image" src="https://github.com/user-attachments/assets/7a18106c-e9db-457b-9ed8-3b864d769f3a" />
+
+---
 
 ---
 

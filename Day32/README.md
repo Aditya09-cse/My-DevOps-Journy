@@ -63,11 +63,11 @@ Write in your notes: What is the difference between a named volume and a bind mo
 ---
 
 ### Task 6: Put It Together
-1. Create a custom network
+1. Create a custom network -> `name -> two-tier`
 2. Run a **database container** (MySQL/Postgres) on that network with a volume for data
 3. Run an **app container** (use any image) on the same network
 4. Verify the app container can reach the database by container name
-
+5. 
 ---
 
 ## Hints
@@ -91,3 +91,4 @@ Share what happened when you deleted a container without a volume on LinkedIn. T
 
 Happy Learning!
 **TrainWithShubham**
+

@@ -71,8 +71,21 @@ Write in your notes: When would you use `|` vs `>`?
 ### Task 5: Validate Your YAML
 1. Install `yamllint` or use an online validator
 2. Validate both your YAML files
+
+    <img width="813" height="399" alt="image" src="https://github.com/user-attachments/assets/8e5be188-14de-42fc-af0d-511c9fa962c5" />
+
+    <img width="888" height="435" alt="image" src="https://github.com/user-attachments/assets/43e60a7c-06d3-448b-83db-093f283a7ddb" />
+
+
 3. Intentionally break the indentation — what error do you get?
+
+      <img width="908" height="449" alt="image" src="https://github.com/user-attachments/assets/d5d9edaa-dea3-42ea-8f4c-0d540599254a" />
+
+      - **Error* -> Map keys must be unique at line 18, column 5
+
 4. Fix it and validate again
+    <img width="763" height="340" alt="image" src="https://github.com/user-attachments/assets/ff3324df-b1b1-4c90-b792-dd0e15d69961" />
+
 
 --
 

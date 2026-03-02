@@ -1,0 +1,29 @@
+services:
+  server:
+    name: my-server
+    ip: 192.176.108.220
+    port: 80
+    
+    # Literal block style: preserves newlines exactly as written
+    startup_script_literal: |
+      #!/bin/bash
+      echo "starting server..."
+      systemctl start my-server.service
+      echo "server started successfully"
+
+      # Folded block style: folds newlines into spaces, useful for long commands or paragraphs
+    startup_script_folded: >
+      #!/bin/bash
+      echo "starting server..."
+      systemctl start my-server.service
+      echo "server started successfully"
+
+
+  database:
+    name: my-db
+    host: localhost
+    credentials:
+      user: adi
+      password: adi@123
+
+

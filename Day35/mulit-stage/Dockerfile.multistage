@@ -1,0 +1,31 @@
+# ----------------------------------------------------STAGE 1 ------------------------------------------------------------
+
+# Use official Nod image
+FROM node:20-alpine AS builder
+
+# set the WORK DIR
+WORKDIR /app
+
+# copy the src code
+COPY . .
+
+# install dependencies required
+#RUN npm install
+
+
+#  ----------------------------------------------------STAGE 2 ------------------------------------------------------------
+
+# use distroless node image
+FROM gcr.io/distroless/nodejs20
+
+# set the workdir
+WORKDIR /app
+
+#copy from stage 1
+COPY --from=builder /app .
+
+# expose port 
+#EXPOSE 3000
+
+# run the application
+CMD ["app.js"]

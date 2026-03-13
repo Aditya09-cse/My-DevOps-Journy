@@ -13,6 +13,10 @@
 
 <img width="1353" height="581" alt="image" src="https://github.com/user-attachments/assets/2bb92f5b-059c-48d5-80de-c1dab2fba040" />
 
+
+
+[pr-check.yml](https://github.com/Aditya09-cse/github-actions-practice/blob/main/.github/workflows/pr-check.yml)
+
 ---
 
 ### Task 2: Scheduled Trigger
@@ -23,6 +27,10 @@
 
 3. Write in your notes: What is the cron expression for every Monday at 9 AM?
    - *`0 9 * * 1`*
+
+
+[daily-check](https://github.com/Aditya09-cse/github-actions-practice/blob/main/.github/workflows/daily-check.yml)
+
 
 ---
 
@@ -37,6 +45,10 @@
 
 
  <img width="991" height="441" alt="image" src="https://github.com/user-attachments/assets/9fa1bae7-e574-4d80-9cad-cbb37ed0b430" />
+
+ 
+
+ [manual-trigger](https://github.com/Aditya09-cse/github-actions-practice/blob/main/.github/workflows/manual.yml)
 
 ---
 
@@ -54,6 +66,10 @@ Then extend the matrix to also include 2 operating systems — how many total jo
 
  <img width="1072" height="592" alt="image" src="https://github.com/user-attachments/assets/e8fa39ab-e950-45e1-b7ae-d59f52c25385" />
 
+ 
+
+[matrix-build](https://github.com/Aditya09-cse/github-actions-practice/blob/main/.github/workflows/python-matrix.yml)
+
 
 ---
 
@@ -66,6 +82,8 @@ Then extend the matrix to also include 2 operating systems — how many total jo
 3. Write in your notes: What does `fail-fast: true` (the default) do vs `false`?
    - `fail-fast: true` -> If any job in the matrix fails, GitHub immediately cancels the remaining running matrix jobs
    - `fail-fast: false` -> If a job fails, GitHub still runs the remaining jobs.
+
+
 
 ---
 

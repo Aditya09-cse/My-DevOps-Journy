@@ -1,0 +1,56 @@
+name: GitHub-Hosted YAML
+
+on:
+  workflow_dispatch:
+    
+  #push:
+   # branches:
+    #  - main
+
+jobs:
+  ubuntu_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print os name
+        run: echo $RUNNER_OS
+      
+      - name: print the runners hostname
+        run: hostname
+
+      - name: print the current user running the job
+        run: echo $USER 
+
+      - name: print tool versions
+        run: |
+          echo "Docker: $(docker --version)"
+          echo "Git: $(git --version)"
+          echo "Python: $(python --version)"
+          echo "Node: $(node --version)"
+
+
+  windows_job:
+    runs-on: windows-latest
+
+    steps:
+      - name: print os name
+        run: echo %RUNNER_OS%
+      
+      - name: print the runners hostname
+        run: hostname 
+
+      - name: print the current user running the job
+        run: echo  %USERNAME%
+
+  mac_job:
+    runs-on: macos-latest
+
+    steps:
+      - name: print os name
+        run: echo $RUNNER_OS
+      
+      - name: print the runners hostname
+        run: hostname
+
+      - name: print the current user running the job
+        run: echo $USER
